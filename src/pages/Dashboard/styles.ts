@@ -1,4 +1,4 @@
-import styled, {css}from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import { shade } from 'polished';
 
@@ -28,7 +28,7 @@ export const Form = styled.form<FormProps>`
     border: 2px solid #fff;
     border-right: 0;
 
-    ${(props) =>  props.hasError && css`
+    ${(props) => props.hasError && css`
       border-color: #c53030;
     ` }
 
@@ -56,7 +56,7 @@ export const Form = styled.form<FormProps>`
 export const Error = styled.span`
   display: block;
   color: #c53030;
-  margin-top: 8px;
+margin-top: 8px;
 `;
 
 export const Repositories = styled.div`
